@@ -24,6 +24,10 @@ int main()
 	variable_y = cos(variable_x) + 2 * tan(variable_x / 2);
 	variable_y2 = (variable_y * 180) / PI;
 	printf("Las funciones que se utiliza en el segundo calculo son tan y cos, ambas funciones son trigonometricas y nos dan un resultado en radianes, por lo cual se aplica una operacción para transformarlos en grados. El resultado es %f. \n", variable_y2);
+
+	variable_y = log(variable_x) + 3 * pow(variable_x,2);
+	printf("El siguiente calculo consiste en sacar el logaritmo natural de la variable y sumarlo con la variable al cuadrado y multiplicala por 3, el resultado fue: %f \n", variable_y);
+
 	return 0;
 }
 
