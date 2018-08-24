@@ -11,12 +11,12 @@ int main()
 	char nombre[20];
 
 	printf("Hola invitado, ¿Cual es tu nombre? \n");
-	scanf("%s",&nombre);
-	printf("Bienvenido %s, este programa te permite realizar diversos calculos con una variable que escojas. \n");
+	scanf("%s",nombre);
+	printf("Bienvenido %s, este programa te permite realizar diversos calculos con una variable que escojas. \n", nombre);
 
 	printf("Introduzca un numero cualquiera, que sera denominado x: \n");
 	scanf("%f",&variable_x);
-	printf("La variable x, sera entonces %f. \n");
+	printf("La variable x, sera entonces %f. \n", variable_x);
 	
 	variable_y = exp(-1 * variable_x);
 	printf("La funcion que se utiliza en el primer calculo es exp, una función exponencial que computa e a la x pontencia, el resultado es: %f \n", variable_y);
