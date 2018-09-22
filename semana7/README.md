@@ -1,0 +1,3 @@
+Esta semana aprendimos un poco más de arreglos y usos de for dentro de la lectura de archivos, de cierta forma repasamos todo lo anterior debido a que algunos de los problemas era los limites de las aplicaciones de estas variantes. Durante la clase nos explico otra vez esto.
+
+En el ejercicio pasado o actual.. pues, tuve complicaciones debido a que no soyu muy adepto a las matematicas, particularmente a las integrales y metodos, sobre todo para las distintas variables, estos metodos me parecen muy buenos, debido a que con solo un programa puedes obtener distintas opciones. Conlcuyo.. que debo de practicar los usos de for.
