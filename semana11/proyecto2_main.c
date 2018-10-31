@@ -6,10 +6,10 @@
 
 
 
-
+//Declaro mis variables utilizando apuntadores para poder reservar memoria.
 double **iniciar(double **aux, int w, float up, float down, float left, float right){
 	
-
+//inicio mis variables y les asigno un valor con mis arreglos, para que estos cambien a traves de las distintas matrices.
 	for(int i=1 ; i<w-1 ; i++){
 		aux[0][i]=up;
 		aux[w-1][i]=left;
@@ -22,27 +22,27 @@ double **iniciar(double **aux, int w, float up, float down, float left, float ri
 			aux[i][j]=0.0;	
 		}
 	}
-
+//Cierro la parte de mi primer programa.
 	return aux;
 }
 
 
 
-
+//Asigno mas apuntadores para almacenar información que se utilizara para equlibrar mis temperaturas en todos los documentos.
 void print(double **aux, int w, int a){	
 
-	
+	//Este sera el nombre que se le pondra a mis distintos archivos.
 	char name[20]={'M', '.', 't', 'x', 't', '\0'};
 
 	
 	name[0]=a +'a';
 	char *matriz;
 	
-	
+	//Aquí creo mis archivos donde voy a escribir mis matrices.
 	matriz=name;
 	FILE *write;
 
-	
+	//Las condiciones de que no exceda cierto limite
 	if(a!=300){
 		write = fopen(matriz, "w");
 	}
@@ -64,7 +64,7 @@ void print(double **aux, int w, int a){
 }
 
 
-
+//Aquí establezco el número maximno de iteraciones según la temperatura máxima, según las condiciones.
 
 double **itera(double **aux, int w){
 	double sum=0, max=0, temp=0, est=0;	
